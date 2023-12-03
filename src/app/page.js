@@ -30,19 +30,21 @@ export default function Home() {
           <div>
             <Image
               src="/undraw_arrow.svg"
-              width={250}
-              height={250}
+              width={220}
+              height={220}
               alt="Arrow SVG"
             />
           </div>
-          <div>
-            <Image
-              src="/hero.jpg"
-              width={350}
-              height={350}
-              alt="Denis Arsyatya Photo"
-              className="rounded-full"
-            />
+          <div className="bg-blue-700 rounded-full">
+            <div className="scale-95">
+              <Image
+                src="/hero.jpg"
+                width={350}
+                height={350}
+                alt="Denis Arsyatya Photo"
+                className="rounded-full"
+              />
+            </div>
           </div>
         </div>
         <div className="absolute bottom-0 w-full pb-8 text-center text-slate-600">
