@@ -33,6 +33,7 @@ export default function Home() {
               width={220}
               height={220}
               alt="Arrow SVG"
+              loading="eager"
             />
           </div>
           <div className="bg-blue-700 rounded-full">
