@@ -12,9 +12,9 @@ export default function Home() {
             <div className="flex flex-col">
               <span className="text-4xl font-bold">
                 I&#39;m <span className="text-blue-700">Back End</span>{" "}
-                Developer
+                Developer Denis Arsyatya a.k.a{" "}
+                <span className="text-blue-700">WaxArsatia</span>
               </span>
-              <span className="text-4xl font-bold">Denis Arsyatya</span>
             </div>
             <div>
               <p>
@@ -47,7 +47,8 @@ export default function Home() {
         </div>
         <div className="absolute bottom-0 w-full pb-8 text-center text-slate-600">
           <span>
-            Copyright 2023 waxarsatia.net - Denis Arsyatya. All Rights Reserved
+            Copyright 2023 www.waxarsatia.net - Denis Arsyatya. All Rights
+            Reserved
           </span>
         </div>
       </div>
